@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Factura</title>
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+
+    <h1>Factura Comercial</h1>
+
+    <!-- Datos de la Empresa -->
+    <table class="empresa">
+        <caption>Datos de la Empresa</caption>
+        <tr>
+            <td>Nombre:</td>
+            <td><input type="text" placeholder="Nombre de la empresa"></td>
+        </tr>
+        <tr>
+            <td>Dirección:</td>
+            <td><input type="text" placeholder="Dirección"></td>
+        </tr>
+        <tr>
+            <td>RUC:</td>
+            <td><input type="text" placeholder="RUC"></td>
+        </tr>
+        <tr>
+            <td>Contacto:</td>
+            <td><input type="text" placeholder="Teléfono o correo"></td>
+        </tr>
+    </table>
+
+    <!-- Datos del Cliente -->
+    <table class="cliente">
+        <caption>Datos del Cliente</caption>
+        <tr>
+            <td>Nombre:</td>
+            <td><input type="text" placeholder="Nombre del cliente"></td>
+        </tr>
+        <tr>
+            <td>Cédula o RUC:</td>
+            <td><input type="text" placeholder="Identificación"></td>
+        </tr>
+        <tr>
+            <td>Dirección:</td>
+            <td><input type="text" placeholder="Dirección"></td>
+        </tr>
+        <tr>
+            <td>Contacto:</td>
+            <td><input type="text" placeholder="Teléfono o correo"></td>
+        </tr>
+    </table>
+
+    <!-- Listado de Productos -->
+    <table class="productos">
+        <caption>Listado de Productos</caption>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="number" min="1"></td>
+                <td><input type="number" step="0.01"></td>
+                <td><input type="number" step="0.01" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="number" min="1"></td>
+                <td><input type="number" step="0.01"></td>
+                <td><input type="number" step="0.01" readonly></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Información Adicional -->
+    <table class="info">
+        <caption>Información Adicional</caption>
+        <tr>
+            <td>Forma de pago:</td>
+            <td><input type="text" placeholder="Efectivo, Tarjeta, etc."></td>
+        </tr>
+        <tr>
+            <td>Observaciones:</td>
+            <td><textarea rows="3" placeholder="Notas u observaciones"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="gracias">¡Gracias por su compra, vuelva pronto! </a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
