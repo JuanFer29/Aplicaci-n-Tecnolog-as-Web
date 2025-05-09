@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    padding: 8px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+caption {
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 1.1em;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.gracias {
+    text-align: center;
+    font-weight: bold;
+    color: #007700;
+    background-color: #e6ffe6;
+    padding: 8px;
+    border-top: 1px solid #ccc;
+}
+
+table.empresa {
+    border: 1px solid #007acc;
+}
+table.cliente {
+    border: 1px solid #ffa500;
+}
+table.productos {
+    border: 1px solid #28a745;
+}
+table.info {
+    border: 1px solid #6f42c1;
+}
